@@ -6,6 +6,13 @@
     max-width: 30rem;
     align-items: center;
     margin: 0 auto;
+    
+
+    &:hover{
+        background-color: #5885AF;
+        transform: scale(1.2)
+    }
+    
 
     .text{
         font-size: 1.5rem;
