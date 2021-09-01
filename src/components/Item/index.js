@@ -2,12 +2,12 @@ import React from 'react'
 import "./styles.scss"
 
 function Item(props){
-    
-    return(
+    const {title, thumbnail, price} = props.item
+    return( 
         <div className="card">
-            <p className="text">{props.data.title}</p>
-            <img className="img" src={props.data.thumbnail}></img>
-            <p className="price">${props.data.price}</p>
+            <p className="text">{title}</p>
+            <img className="img" src={thumbnail}></img>
+            <p className="price">${price}</p>
         </div>
     )
 }
