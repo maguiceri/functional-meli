@@ -1,0 +1,13 @@
+@import "./base/reset.scss";
+
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #C3E0E5;
+  display: flex;
+  justify-content: center;
+}
+
+
